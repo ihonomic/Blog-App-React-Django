@@ -1,0 +1,7 @@
+.thumbnail-img {
+  width: 25px;
+  height: 25px;
+  margin-right: -4%;
+  border: 1px double var(--color-quaternary);
+  border-radius: 50%;
+}

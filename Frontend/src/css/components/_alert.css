@@ -1,0 +1,17 @@
+.alert {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--color-white);
+  margin-top: 0.2rem;
+  height: 3rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.alert--success {
+  background-color: var(--color-quaternary);
+}
+
+.alert--error {
+  background-color: var(--color-primary);
+}

@@ -1,0 +1,75 @@
+.signup__box {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  max-width: 550px;
+  margin: auto;
+  background-color: #ffff;
+  -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+  box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__title {
+  font-size: 4.2rem;
+  color: var(--color-primary);
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.auth__lead {
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+}
+
+.auth__form__group {
+  margin-bottom: 1rem;
+}
+
+.auth__form__input {
+  font-size: 1rem;
+  padding: 1rem 6rem;
+  outline-color: var(--color-primary);
+}
+
+.auth__form__button {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  width: 80%;
+  margin-left: 5%;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 0.1rem solid var(--color-primary);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  outline: none;
+}
+
+.auth__form__button:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.auth__authtext {
+  font-size: 1.4rem;
+  color: var(--color-paragraph);
+}
+
+.auth__authtext__link {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.auth____authtext__link:hover {
+  color: var(--color-link-hover);
+}

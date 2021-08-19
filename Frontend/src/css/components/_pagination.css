@@ -1,0 +1,4 @@
+.page-active {
+  color: var(--color-tertiary);
+  border: none;
+}

@@ -1,0 +1,66 @@
+:root {
+  --color-primary: #328da8;
+  --color-secondary: #47acad;
+  --color-tertiary: #2fa18a;
+  --color-quaternary: #87369e;
+
+  --color-grey-light: #efefef;
+  --color-grey-dark: #333;
+
+  --color-hover: #edf5f8;
+  --color-link-hover: #ccc;
+
+  --color-paragraph: #4a4a4a;
+
+  --color-green: #34eb49;
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* --base-font-family:     'Plain-Light', sans-serif;
+
+    --h1-font-size:         42px;
+    --h2-font-size:         32px;
+
+    --border-radius-large:  100px;
+    --border-radius-small:  5px; */
+}
+
+#header {
+  height: 50px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+#branding h1 {
+  color: var(--color-white);
+}
+
+a:link,
+a:visited {
+  color: var(--color-primary);
+}
+
+div.breadcrumbs {
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+}
+
+div.breadcrumbs a {
+  color: var(--color-quaternary);
+}
+
+.module h2,
+.module caption,
+.inline-group h2 {
+  background-color: var(--color-tertiary);
+}
+
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
